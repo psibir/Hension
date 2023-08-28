@@ -133,16 +133,6 @@ For hybrid graphs:
 
 Leverage tools supporting the .dot syntax to visualize Hension scripts as directed, undirected, or hybrid graphs.
 
-### Benefits
-
-- **Versatility:** Hension supports various graph structures and relationship types for comprehensive idea representation.
-
-- **Collaboration:** Teams collaborate effectively through the sharing and discussion of Hension scripts.
-
-- **Readability:** Markdown ensures accessibility and ease of understanding.
-
-Hension empowers individuals to convey, share, and interpret intricate idea relationships, refining communication and decision-making across diverse contexts.
-
 ## Business Use Case: Enhancing Strategic Planning and Alignment
 
 ### Background
