@@ -1,6 +1,10 @@
+# Hension
+
+
+
 ## Hension: A Comprehensive Language for Idea Relationship Visualization
 
-Hension is a powerful language designed to facilitate the representation of intricate idea relationships using the .dot syntax. It enables the creation of directed, undirected, and hybrid graphs, enhancing communication and understanding across various domains. The inclusion of diverse relationship types further enriches the expressiveness of the language, making it a versatile tool for conveying complex ideas.
+Hension is a powerful language designed to facilitate the representation of intricate idea relationships using .dot syntax. It enables the creation of directed, undirected, and hybrid graphs, enhancing communication and understanding across various domains. The inclusion of diverse relationship types further enriches the expressiveness of the language, making it a versatile tool for conveying complex ideas.
 
 ### Core Concepts
 
