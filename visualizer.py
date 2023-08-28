@@ -1,3 +1,4 @@
+import argparse
 import plotly.graph_objects as go
 
 def read_dot_file(file_path):
@@ -57,7 +58,11 @@ def create_plotly_graph(nodes, edges):
     fig.show()
 
 def main():
-    dot_file_path = 'your_hension.dot'  # Replace with the actual path to your .dot file
+    parser = argparse.ArgumentParser(description='Visualize Hension .dot files using Plotly')
+    parser.add_argument('dot_file', help='Path to the .dot file')
+    args = parser.parse_args()
+
+    dot_file_path = args.dot_file
     nodes, edges = read_dot_file(dot_file_path)
     create_plotly_graph(nodes, edges)
 
