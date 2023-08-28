@@ -206,7 +206,7 @@ By implementing Hension for strategic planning and alignment, the corporation ga
 
 In this business use case, Hension serves as a valuable tool for improving strategic planning, communication, and alignment within a complex corporate environment, ensuring that all teams work cohesively towards shared goals.
 
-## Extending Hension: Adding Relationship Types and Undirected Graphs
+## Extending Hension
 
 Expanding Hension's capabilities by introducing new relationship types and supporting undirected graphs is a simple yet impactful process. Follow these steps to seamlessly extend Hension's functionality:
 
