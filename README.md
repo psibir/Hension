@@ -264,3 +264,26 @@ Example:
 2 -- 3 [label="Supports"]
 1 -- 3 [label="NewRelationshipType1"]
 ```
+
+## Feature: Department and User-Focused Idea Relationships
+
+It is also possible to create associations between nodes and specific departments and owners. This feature allows users to create and manage relationships between nodes and departments/users, and then filter the visualization to display only the nodes relevant to a specified department or user.
+
+1. **Defining Relationships:**
+
+   - Create a separate file named `node_relationships.txt` that defines the relationships between nodes and departments/users. Each line in the file will associate a node ID with a department and an owner.
+
+   Example:
+   ```
+   [1] [Department: Marketing] [Owner: Alice]
+   [2] [Department: Engineering] [Owner: Bob]
+   [3] [Department: Sales] [Owner: Carol]
+   [4] [Department: Marketing] [Owner: Alice]
+   [5] [Department: Engineering] [Owner: Dave]
+   [6] [Department: Sales] [Owner: Carol]
+   ```
+
+2. **Reading and Filtering:**
+   - Integrate a Python script with Hension to read the relationships file and identify the nodes associated with a specific department or owner.
+
+   - When generating the Hension visualization, the script will filter the nodes based on the specified department or owner, displaying only the relevant nodes and their relationships.
